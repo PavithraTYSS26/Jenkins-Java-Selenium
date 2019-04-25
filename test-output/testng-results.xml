@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-04-25T11:33:58Z" name="Suite" finished-at="2019-04-25T11:34:48Z" duration-ms="50334">
+    <groups>
+    </groups>
+    <test started-at="2019-04-25T11:33:58Z" name="Test" finished-at="2019-04-25T11:34:48Z" duration-ms="50334">
+      <class name="jenkins.java.$1_BluestoneGoldCoin">
+        <test-method signature="f()[pri:0, instance:jenkins.java.$1_BluestoneGoldCoin@7bedc48a]" started-at="2019-04-25T11:34:15Z" name="f" finished-at="2019-04-25T11:34:48Z" duration-ms="32679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- jenkins.java.$1_BluestoneGoldCoin -->
+      <class name="jenkins.java.SeleniumhqTitle">
+        <test-method signature="getTitlel()[pri:0, instance:jenkins.java.SeleniumhqTitle@7d20d0b]" started-at="2019-04-25T11:33:58Z" name="getTitlel" finished-at="2019-04-25T11:34:15Z" duration-ms="17619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitlel -->
+      </class> <!-- jenkins.java.SeleniumhqTitle -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
