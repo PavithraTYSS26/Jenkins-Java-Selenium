@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 public class SeleniumhqTitle {
 	@Test
-	public void getTitlel()
+	public void getTitlel() throws InterruptedException
 	{
 		System.setProperty("webdriver.chrome.driver", "D:\\TestYantra\\SrinidhiJenkinsJavaProject\\softwares\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
@@ -18,10 +18,14 @@ public class SeleniumhqTitle {
 		
 		driver.get("https://www.seleniumhq.org");
 		driver.manage().window().maximize();
-		System.out.println("Selenium");
+		
 		System.out.println(driver.findElement(By.xpath("//div[@id='header']/h1/a")).getText());
+		System.out.println(driver.getTitle());
 		driver.findElement(By.xpath("//a[text()='Download']")).click();
-	    System.out.println(driver.getTitle());
+		driver.findElement(By.xpath("//a[text()='Documentation']")).click();
+		Thread.sleep(1000);
+		System.out.println(driver.getTitle());
+	   
 	    driver.close();
 	}
 }
