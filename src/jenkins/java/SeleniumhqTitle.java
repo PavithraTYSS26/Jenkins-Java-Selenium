@@ -11,7 +11,7 @@ public class SeleniumhqTitle {
 	@Test
 	public void getTitlel()
 	{
-		System.setProperty("webdriver.chrome.driver", "D:\\TestYantra\\SimpleMavenProject\\src\\test\\resources\\simple\\exe\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "D:\\TestYantra\\SrinidhiJenkinsJavaProject\\softwares\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 

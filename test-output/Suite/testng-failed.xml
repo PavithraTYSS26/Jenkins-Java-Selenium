@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="jenkins.java.SeleniumhqTitle">
+        <methods>
+          <include name="getTitlel"/>
+        </methods>
+      </class> <!-- jenkins.java.SeleniumhqTitle -->
+      <class name="jenkins.java.$1_BluestoneGoldCoin">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- jenkins.java.$1_BluestoneGoldCoin -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
