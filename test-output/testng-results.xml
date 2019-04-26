@@ -2,18 +2,18 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-04-26T05:41:37Z" name="Suite" finished-at="2019-04-26T05:42:14Z" duration-ms="36840">
+  <suite started-at="2019-04-26T05:55:36Z" name="Suite" finished-at="2019-04-26T05:56:00Z" duration-ms="23815">
     <groups>
     </groups>
-    <test started-at="2019-04-26T05:41:37Z" name="Test" finished-at="2019-04-26T05:42:14Z" duration-ms="36840">
+    <test started-at="2019-04-26T05:55:36Z" name="Test" finished-at="2019-04-26T05:56:00Z" duration-ms="23815">
       <class name="jenkins.java.$1_BluestoneGoldCoin">
-        <test-method signature="f()[pri:0, instance:jenkins.java.$1_BluestoneGoldCoin@3c419631]" started-at="2019-04-26T05:41:46Z" name="f" finished-at="2019-04-26T05:42:14Z" duration-ms="27205" status="PASS">
+        <test-method signature="f()[pri:0, instance:jenkins.java.$1_BluestoneGoldCoin@3c419631]" started-at="2019-04-26T05:55:45Z" name="f" finished-at="2019-04-26T05:56:00Z" duration-ms="14209" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
       </class> <!-- jenkins.java.$1_BluestoneGoldCoin -->
       <class name="jenkins.java.SeleniumhqTitle">
-        <test-method signature="getTitlel()[pri:0, instance:jenkins.java.SeleniumhqTitle@48e4374]" started-at="2019-04-26T05:41:37Z" name="getTitlel" finished-at="2019-04-26T05:41:46Z" duration-ms="9611" status="PASS">
+        <test-method signature="getTitlel()[pri:0, instance:jenkins.java.SeleniumhqTitle@48e4374]" started-at="2019-04-26T05:55:36Z" name="getTitlel" finished-at="2019-04-26T05:55:45Z" duration-ms="9580" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTitlel -->
